@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 26553697}
   - component: {fileID: 26553701}
   - component: {fileID: 26553702}
+  - component: {fileID: 26553703}
   m_Layer: 0
   m_Name: BlueAgent
   m_TagString: Untagged
@@ -220,7 +221,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 21
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &26553701
 MonoBehaviour:
@@ -234,7 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!195 &26553702
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -257,6 +257,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &26553703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26553696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &47811809
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +284,7 @@ GameObject:
   - component: {fileID: 47811810}
   - component: {fileID: 47811814}
   - component: {fileID: 47811815}
+  - component: {fileID: 47811816}
   m_Layer: 0
   m_Name: RedAgent
   m_TagString: Untagged
@@ -355,7 +369,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 20
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &47811814
 MonoBehaviour:
@@ -369,7 +383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!195 &47811815
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -392,6 +405,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &47811816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47811809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &169389572
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +432,7 @@ GameObject:
   - component: {fileID: 169389575}
   - component: {fileID: 169389574}
   - component: {fileID: 169389573}
+  - component: {fileID: 169389579}
   m_Layer: 0
   m_Name: RedAgent (14)
   m_TagString: Untagged
@@ -447,7 +474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &169389575
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -525,8 +551,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 16
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169389579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169389572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &206643194
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +580,7 @@ GameObject:
   - component: {fileID: 206643197}
   - component: {fileID: 206643196}
   - component: {fileID: 206643195}
+  - component: {fileID: 206643201}
   m_Layer: 0
   m_Name: RedAgent (9)
   m_TagString: Untagged
@@ -582,7 +622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &206643197
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -660,8 +699,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &206643201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206643194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &353159536
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +825,7 @@ GameObject:
   - component: {fileID: 421933043}
   - component: {fileID: 421933042}
   - component: {fileID: 421933041}
+  - component: {fileID: 421933047}
   m_Layer: 0
   m_Name: BlueAgent (13)
   m_TagString: Untagged
@@ -814,7 +867,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &421933043
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -892,8 +944,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 15
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &421933047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421933040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &428459783
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +973,7 @@ GameObject:
   - component: {fileID: 428459786}
   - component: {fileID: 428459785}
   - component: {fileID: 428459784}
+  - component: {fileID: 428459790}
   m_Layer: 0
   m_Name: BlueAgent (10)
   m_TagString: Untagged
@@ -949,7 +1015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &428459786
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1027,8 +1092,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 9
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428459790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428459783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &468972975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,6 +1121,7 @@ GameObject:
   - component: {fileID: 468972978}
   - component: {fileID: 468972977}
   - component: {fileID: 468972976}
+  - component: {fileID: 468972982}
   m_Layer: 0
   m_Name: RedAgent (10)
   m_TagString: Untagged
@@ -1084,7 +1163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &468972978
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1162,8 +1240,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468972982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468972975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &482814217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1269,7 @@ GameObject:
   - component: {fileID: 482814220}
   - component: {fileID: 482814219}
   - component: {fileID: 482814218}
+  - component: {fileID: 482814224}
   m_Layer: 0
   m_Name: BlueAgent (11)
   m_TagString: Untagged
@@ -1219,7 +1311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &482814220
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1297,8 +1388,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 11
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482814224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482814217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &674923391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,6 +1417,7 @@ GameObject:
   - component: {fileID: 674923394}
   - component: {fileID: 674923393}
   - component: {fileID: 674923392}
+  - component: {fileID: 674923398}
   m_Layer: 0
   m_Name: RedAgent (5)
   m_TagString: Untagged
@@ -1354,7 +1459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &674923394
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1432,8 +1536,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 30
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674923398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674923391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &688377688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1565,7 @@ GameObject:
   - component: {fileID: 688377691}
   - component: {fileID: 688377690}
   - component: {fileID: 688377689}
+  - component: {fileID: 688377695}
   m_Layer: 0
   m_Name: BlueAgent (7)
   m_TagString: Untagged
@@ -1489,7 +1607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &688377691
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1567,8 +1684,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 3
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688377695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688377688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,37 +1821,37 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2137474897}
-  - {fileID: 1283399030}
-  - {fileID: 766360403}
-  - {fileID: 688377694}
-  - {fileID: 1601013986}
-  - {fileID: 1538736270}
-  - {fileID: 206643200}
-  - {fileID: 1046026431}
-  - {fileID: 468972981}
-  - {fileID: 428459789}
-  - {fileID: 1810573880}
-  - {fileID: 482814223}
-  - {fileID: 876005846}
-  - {fileID: 2073108526}
-  - {fileID: 1996495742}
-  - {fileID: 421933046}
-  - {fileID: 169389578}
-  - {fileID: 1205434510}
-  - {fileID: 1037700490}
   - {fileID: 1242337357}
+  - {fileID: 1037700490}
+  - {fileID: 2137474897}
+  - {fileID: 766360403}
+  - {fileID: 1601013986}
+  - {fileID: 206643200}
+  - {fileID: 468972981}
+  - {fileID: 1810573880}
+  - {fileID: 876005846}
+  - {fileID: 169389578}
   - {fileID: 47811813}
-  - {fileID: 26553700}
   - {fileID: 1640901311}
-  - {fileID: 1262385017}
+  - {fileID: 1996495742}
   - {fileID: 1077856002}
-  - {fileID: 894614601}
   - {fileID: 1450149561}
-  - {fileID: 1553658416}
-  - {fileID: 2040540628}
-  - {fileID: 1751819466}
   - {fileID: 674923397}
+  - {fileID: 2040540628}
+  - {fileID: 1283399030}
+  - {fileID: 688377694}
+  - {fileID: 1538736270}
+  - {fileID: 1046026431}
+  - {fileID: 428459789}
+  - {fileID: 482814223}
+  - {fileID: 2073108526}
+  - {fileID: 421933046}
+  - {fileID: 1205434510}
+  - {fileID: 26553700}
+  - {fileID: 1262385017}
+  - {fileID: 894614601}
+  - {fileID: 1553658416}
+  - {fileID: 1751819466}
   - {fileID: 1754082038}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1740,6 +1870,7 @@ GameObject:
   - component: {fileID: 766360400}
   - component: {fileID: 766360399}
   - component: {fileID: 766360398}
+  - component: {fileID: 766360404}
   m_Layer: 0
   m_Name: RedAgent (7)
   m_TagString: Untagged
@@ -1781,7 +1912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &766360400
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1859,8 +1989,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &766360404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766360397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &876005840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,6 +2018,7 @@ GameObject:
   - component: {fileID: 876005843}
   - component: {fileID: 876005842}
   - component: {fileID: 876005841}
+  - component: {fileID: 876005847}
   m_Layer: 0
   m_Name: RedAgent (12)
   m_TagString: Untagged
@@ -1916,7 +2060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &876005843
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1994,8 +2137,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 12
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &876005847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876005840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &894614595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,6 +2166,7 @@ GameObject:
   - component: {fileID: 894614598}
   - component: {fileID: 894614597}
   - component: {fileID: 894614596}
+  - component: {fileID: 894614602}
   m_Layer: 0
   m_Name: BlueAgent (2)
   m_TagString: Untagged
@@ -2051,7 +2208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &894614598
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2129,8 +2285,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 25
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894614602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894614595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2310,7 +2479,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 18
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046026425
 GameObject:
@@ -2326,6 +2495,7 @@ GameObject:
   - component: {fileID: 1046026428}
   - component: {fileID: 1046026427}
   - component: {fileID: 1046026426}
+  - component: {fileID: 1046026432}
   m_Layer: 0
   m_Name: BlueAgent (9)
   m_TagString: Untagged
@@ -2367,7 +2537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1046026428
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2445,8 +2614,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 7
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1046026432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046026425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1077855996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2643,7 @@ GameObject:
   - component: {fileID: 1077855999}
   - component: {fileID: 1077855998}
   - component: {fileID: 1077855997}
+  - component: {fileID: 1077856003}
   m_Layer: 0
   m_Name: RedAgent (2)
   m_TagString: Untagged
@@ -2502,7 +2685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1077855999
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2580,8 +2762,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 24
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1077856003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077855996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &1205434504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,6 +2791,7 @@ GameObject:
   - component: {fileID: 1205434507}
   - component: {fileID: 1205434506}
   - component: {fileID: 1205434505}
+  - component: {fileID: 1205434511}
   m_Layer: 0
   m_Name: BlueAgent (14)
   m_TagString: Untagged
@@ -2637,7 +2833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1205434507
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2715,8 +2910,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 17
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205434511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205434504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1242337353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2812,7 +3020,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 19
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1262385011
 GameObject:
@@ -2828,6 +3036,7 @@ GameObject:
   - component: {fileID: 1262385014}
   - component: {fileID: 1262385013}
   - component: {fileID: 1262385012}
+  - component: {fileID: 1262385018}
   m_Layer: 0
   m_Name: BlueAgent (1)
   m_TagString: Untagged
@@ -2869,7 +3078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1262385014
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2947,8 +3155,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 23
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1262385018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262385011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1283399024
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,6 +3184,7 @@ GameObject:
   - component: {fileID: 1283399027}
   - component: {fileID: 1283399026}
   - component: {fileID: 1283399025}
+  - component: {fileID: 1283399031}
   m_Layer: 0
   m_Name: BlueAgent (6)
   m_TagString: Untagged
@@ -3004,7 +3226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1283399027
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3082,8 +3303,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 1
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1283399031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283399024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1450149555
 GameObject:
   m_ObjectHideFlags: 0
@@ -3098,6 +3332,7 @@ GameObject:
   - component: {fileID: 1450149558}
   - component: {fileID: 1450149557}
   - component: {fileID: 1450149556}
+  - component: {fileID: 1450149562}
   m_Layer: 0
   m_Name: RedAgent (3)
   m_TagString: Untagged
@@ -3139,7 +3374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1450149558
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3217,8 +3451,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 26
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1450149562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450149555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &1538736264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3480,7 @@ GameObject:
   - component: {fileID: 1538736267}
   - component: {fileID: 1538736266}
   - component: {fileID: 1538736265}
+  - component: {fileID: 1538736271}
   m_Layer: 0
   m_Name: BlueAgent (8)
   m_TagString: Untagged
@@ -3274,7 +3522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1538736267
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3352,8 +3599,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 5
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1538736271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538736264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1543299508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,6 +3725,7 @@ GameObject:
   - component: {fileID: 1553658413}
   - component: {fileID: 1553658412}
   - component: {fileID: 1553658411}
+  - component: {fileID: 1553658417}
   m_Layer: 0
   m_Name: BlueAgent (3)
   m_TagString: Untagged
@@ -3506,7 +3767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1553658413
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3584,8 +3844,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553658417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553658410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1601013980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3600,6 +3873,7 @@ GameObject:
   - component: {fileID: 1601013983}
   - component: {fileID: 1601013982}
   - component: {fileID: 1601013981}
+  - component: {fileID: 1601013987}
   m_Layer: 0
   m_Name: RedAgent (8)
   m_TagString: Untagged
@@ -3641,7 +3915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1601013983
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3721,6 +3994,19 @@ Transform:
   m_Father: {fileID: 746137473}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601013987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601013980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &1640901305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,6 +4021,7 @@ GameObject:
   - component: {fileID: 1640901308}
   - component: {fileID: 1640901307}
   - component: {fileID: 1640901306}
+  - component: {fileID: 1640901312}
   m_Layer: 0
   m_Name: RedAgent (1)
   m_TagString: Untagged
@@ -3776,7 +4063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1640901308
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3854,8 +4140,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 22
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640901312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640901305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &1751819460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,6 +4169,7 @@ GameObject:
   - component: {fileID: 1751819463}
   - component: {fileID: 1751819462}
   - component: {fileID: 1751819461}
+  - component: {fileID: 1751819467}
   m_Layer: 0
   m_Name: BlueAgent (4)
   m_TagString: Untagged
@@ -3911,7 +4211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1751819463
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3989,8 +4288,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1751819467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751819460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1754082032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4005,6 +4317,7 @@ GameObject:
   - component: {fileID: 1754082035}
   - component: {fileID: 1754082034}
   - component: {fileID: 1754082033}
+  - component: {fileID: 1754082039}
   m_Layer: 0
   m_Name: BlueAgent (5)
   m_TagString: Untagged
@@ -4046,7 +4359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &1754082035
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4126,6 +4438,19 @@ Transform:
   m_Father: {fileID: 746137473}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1754082039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754082032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &1810573874
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,6 +4465,7 @@ GameObject:
   - component: {fileID: 1810573877}
   - component: {fileID: 1810573876}
   - component: {fileID: 1810573875}
+  - component: {fileID: 1810573881}
   m_Layer: 0
   m_Name: RedAgent (11)
   m_TagString: Untagged
@@ -4181,7 +4507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1810573877
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4259,8 +4584,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810573881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810573874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &1977396314
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,6 +4711,7 @@ GameObject:
   - component: {fileID: 1996495739}
   - component: {fileID: 1996495738}
   - component: {fileID: 1996495737}
+  - component: {fileID: 1996495743}
   m_Layer: 0
   m_Name: RedAgent (13)
   m_TagString: Untagged
@@ -4414,7 +4753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &1996495739
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4492,8 +4830,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1996495743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996495736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &2040540622
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4859,7 @@ GameObject:
   - component: {fileID: 2040540625}
   - component: {fileID: 2040540624}
   - component: {fileID: 2040540623}
+  - component: {fileID: 2040540629}
   m_Layer: 0
   m_Name: RedAgent (4)
   m_TagString: Untagged
@@ -4549,7 +4901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &2040540625
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4627,8 +4978,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 28
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040540629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040540622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
 --- !u!1 &2073108520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,6 +5007,7 @@ GameObject:
   - component: {fileID: 2073108523}
   - component: {fileID: 2073108522}
   - component: {fileID: 2073108521}
+  - component: {fileID: 2073108527}
   m_Layer: 0
   m_Name: BlueAgent (12)
   m_TagString: Untagged
@@ -4684,7 +5049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1242337353}
 --- !u!136 &2073108523
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4762,8 +5126,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 13
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2073108527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073108520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1242337353}
 --- !u!1 &2137474891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4778,6 +5155,7 @@ GameObject:
   - component: {fileID: 2137474894}
   - component: {fileID: 2137474893}
   - component: {fileID: 2137474892}
+  - component: {fileID: 2137474898}
   m_Layer: 0
   m_Name: RedAgent (6)
   m_TagString: Untagged
@@ -4819,7 +5197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23424bf68f20a844a8e8ce283a91917e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 1037700486}
 --- !u!136 &2137474894
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4897,5 +5274,18 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746137473}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137474898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137474891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afddbb2631e6c7c4db1ef48110c150c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 1037700486}
